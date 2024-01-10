@@ -51,4 +51,4 @@ A `GraphQL API` does not use the path HTTP method but instead such a query expre
 
 ## 📒 Node.js & Express.js <a name="3"></a>
 
-## 📒 Node.js & Express.js <a name="4"></a>
+## 📒 MongoDB & Mongoose <a name="4"></a>
