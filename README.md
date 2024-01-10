@@ -1,6 +1,7 @@
 # The MERN Fullstack Guide
 
 - [What is MERN?](#1)
+- [Planning the App](#2)
 
 ---
 
@@ -35,3 +36,13 @@ Such an API is stateless and decoupled from any frontend, which means a REST API
 A `GraphQL API` does not use the path HTTP method but instead such a query expression using a certain query language to identify a resource in action and just like the REST API, it's also stateless and decoupled. So just as with the REST API, you can attach any client to that API which is great but the reason why we won't use it is that despite GraphQL being very popular and very useful and powerful, you need to learn that extra query language which is some extra effort and which not everyone wants to do.
 
 ### 3. Two Ways of Connecting Node + React
+
+![](9.png)
+
+---
+
+## 📒 Planning the App <a name="2"></a>
+
+![](10.png)
+
+---
