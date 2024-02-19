@@ -51,4 +51,23 @@ A `GraphQL API` does not use the path HTTP method but instead such a query expre
 
 ## 📒 Node.js & Express.js <a name="3"></a>
 
+`Node.js`, is a Javascript engine originally built for the browser, now working without a browser and enriched with some extra APIs. With Node.js, we can write any kind of application, any kind of script with Javascript. One popular use case of Node.js is to use it to build web servers which handle incoming requests, maybe talk to databases and also send back responses.
+
+```javascript
+// server creation
+
+const http = require("http"); // this modle allows to create server. It has a createServer method which takes as argument the request listener (a function which is triggered whenever we have an incoming request). This gets two arguments: a request and a response object.
+
+const server = http.createServer((req, res) => {
+  console.log("INCOMING REQUEST");
+  console.log(req.method, req.url);
+
+  res.setHeader("Content-Type", "text/html"); // This tells the browser that what is been sending back should not be interpreted as something special but as plain text.
+
+  res.end("<h1>Success!</h1>"); // for sending back a response, can be used end method which meanes that response is ready to be send back.
+});
+
+server.listen(5000); // method listen  will setup an event listener for incoming requests
+```
+
 ## 📒 MongoDB & Mongoose <a name="4"></a>
